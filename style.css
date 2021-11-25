@@ -6,3 +6,37 @@
     width: 150px;
     height: 10%;
 }
+.heroCardIzzy{
+    margin-left: 15%;
+}
+.izzyCard {
+    align-items: center;
+   
+    width: 301px;
+    height: 400px;
+    margin-left: 35px;
+    transition: transform 0.6s;
+    margin-top: 3%;
+    box-shadow: 5px 5px 20px 5px #888888;
+    display: inline-block;
+  }
+  .izzyCard:hover {
+    transform: scale(1.2);
+  }
+  .izzyImg {
+    width: 300px;
+    height: 300px;
+    
+  }
+  .izzyName {
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    
+  }
+  @media screen and (max-width:600px) {
+    .heroCardIzzy{
+        margin-left: unset;
+    }
+  }
+  

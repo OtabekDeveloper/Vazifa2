@@ -61,4 +61,38 @@
         margin-left: unset;
     }
   }
+
+
+
+
+
+
+
+  /* Asadbekning cardi */
+
+  .morcard{
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+.morcardbody{
+    margin-top: 20px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 0 50px #e7e7e7;
+    transition: all 0.5s ease;
+}
+.morcardbody:hover{
+    box-shadow: 0 15px 20px #a9a9a9;
+}
+.morinfo{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.morinfo h4{
+    margin-top: 10px;
+}
  

@@ -95,4 +95,41 @@
 .morinfo h4{
     margin-top: 10px;
 }
+
+
+
+/* Abdulatifning cardi */
+
+.heroCardAbdulatif {
+  margin-left: 10%;
+}
+
+.abdulatifCard {
+  align-items: center;
+  width: 300px;
+  height: 490px;
+  margin-left: 3%;
+  margin-top: 5%;
+  display: inline-block;
+  box-shadow: 1px 1px 10px 1px #888888;
+  cursor: pointer;
+}
+
+.abdulatifImg {
+  width: 300px;
+  height: 350px;
+  display: block;
+}
+
+.abdulatifName {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+
+@media screen and (max-width:600px) {
+  .heroCardAbdulatif {
+    margin-left: 9%;
+  }
+}
  

@@ -131,5 +131,28 @@
   .heroCardAbdulatif {
     margin-left: 9%;
   }
+  .bunyodCard{
+    flex-direction: column !important;
+    margin-left: 35px !important;
+  }
 }
+.bunyodCard{
+  margin-left: 18%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.bCard{
+  width: 300px !important;
+  margin-left: 20px;
+  border: 1px solid #888888;
+  box-shadow: 5px 5px 20px 5px #888888;
+}
+.bCardTitle{
+  padding-left: 10px;
+}
+.bImg{
+  width: 300px;
+}
+
  

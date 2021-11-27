@@ -199,3 +199,22 @@
 .myCardInfo h2{
   color: red;
 }
+/* Shahzod_Card css start */
+.shahzod-cards{
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.shahzod-cards .shahzod-card{
+  border:  1px solid red;
+  width: 250px;
+  height: auto;
+  padding: 20px 10px;
+  margin: 20px 5px;
+}
+.shahzod-card img{
+  width: 100%;
+}
+/* Shahzod_Card css end */

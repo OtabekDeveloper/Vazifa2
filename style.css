@@ -218,3 +218,26 @@
   width: 100%;
 }
 /* Shahzod_Card css end */
+
+/* Ahadjon start */
+.Awrap{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.Acard{
+  margin: 20px 20px;
+}
+.AcardImg{
+  width: 300px;
+}
+.AcardBody{
+  width: 300px;
+  text-align: center; 
+}
+.AcardBody p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-weight: 500;
+}
+/* Ahadjon end */
